@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Dev_Test_Christo_Oosthuizen</title>
+	
+	<meta name="description" content="">
+	
+  	<!-- Mobile-friendly viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+   <!-- Style sheet link -->
+	<link href="css/main.css" rel="stylesheet" media="all">
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css' rel='stylesheet' type='text/css'>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	
+
+	
+</head>
+<body>
+<div class="wrapper ">
+
+	<div class="header row">
+
+		<header role="header_area container row">
+
+
+			<button type="button" class="header_button_cancel">Cancel</button>
+
+			<h3 class="header_page_title">Description</h3>
+
+			<button type="button" class="header_button_done">Done</button>
+		
+				
+		</header>
+	</div>
+
+	<div id="instructionMessage" class="row">
+		<p>Fields marked with an (*) are mandatory <a class="closeMessage">Close</a></p>
+			
+	</div>
+
+	<section role="main_area container">
+
+	<!--<div class="section_content_left row"></div>-->
+			
+		<div class="element12 col-xs-12 col-sm-6 ">	
+
+		<form action="#">
+
+					<h5>*Title</h5>
+						<input class="required" type="text" name="Title" placeholder="Title">
+						<div class="greenArrow"></div>
+
+					<h5>Description tags</h5>
+						<input type="text" name="tags" placeholder="#maths #grade6 #sums">
+						<div class="greenArrow"></div>
+		</form>
+		</div>
+
+		<div class="element3 col-xs-12 col-sm-6 pull-right">
+					<h5>Image</h5>
+						<form action="#"
+						      class="dropzone"
+						      id="my-awesome-dropzone">
+						</form>
+		</div>
+					
+	<div class="element45 col-xs-12 col-sm-6">
+		<form action="#" >
+
+					<div class="selectors select1 col-xs-12 col-sm-6 ">
+					<h5>Visible to</h5>
+						<select class="select_group">
+						  <option class="global" value="everyone">Everyone</option>
+						  <option class="group" value="groupA">Group A</option>
+						  <option class="private" value="onlyMe">Only Me</option>
+						</select>
+					</div>
+
+					<div class="selectors select2 col-xs-12 col-sm-6">
+					<h5 >Language</h5>
+						<select class="select_language">
+
+						  <option value="English">English</option>
+						  <option value="French">French</option>
+						  <option value="Spanish">Spanish</option>
+						  <option value="Norwegian">Norwegian</option>
+						</select>
+					</div>
+		</form>
+	</div>
+
+	<div class="element6 col-xs-12 col-sm-6">
+		<form action="#">
+		<h5>Credit resources</h5>
+			<input type="text" name="credits">
+			<div class="greenArrow"></div>
+		</form>
+	</div>
+		
+	
+	<div class="element7 col-xs-12 col-sm-6">
+			<form action="#">
+					<h5>Intro Video</h5>
+						<input type="text" name="videoLink" placeholder="youtube.com/maths">
+						<div class="greenArrow"></div>
+						<p>Embed a YouTube video to be displayed in the background of the intro screen as players join the game.</p>
+
+			</form>
+	</div>
+	<!--<div class="section_content_right col-xs-12 col-sm-6">		
+	</div>-->
+
+	</section>
+	
+	<footer role="fotter_area">
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="js/dropzone.js"></script>
+
+	<script  src="js/scripts.js"></script>
+
+</div>
+</body>
+</html>
