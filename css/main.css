@@ -118,6 +118,8 @@ section {
 }
 body {
     line-height: 1;
+    /*THEME-COLOR-DARK-BACKGROUND-TWO*/
+    
     background-color: #ffffff;
 }
 ol,
@@ -151,7 +153,6 @@ input {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-body {   font-family: 'Montserrat', sans-serif;}
 /*========================================================================
   HEADER
 ==========================================================================*/
@@ -279,6 +280,7 @@ body {
     min-height: 950px;
     width: 100%;
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif!important;
 }
 a.dz-remove:hover {
     color: #fff
@@ -582,5 +584,6 @@ a.dz-remove:before {
     }
     body {
         min-height: 1250px;
+        font-family: 'Montserrat', sans-serif!important;
     }
 }
