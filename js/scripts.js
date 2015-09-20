@@ -33,4 +33,8 @@ $(".closeMessage").click(function(){
     $("#instructionMessage").hide();
 });
 
+$(".header_button_cancel").bind("click", function() {
+  $("input[type=text], textarea").val("");
+});
+
 });
