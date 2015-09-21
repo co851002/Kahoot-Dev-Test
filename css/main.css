@@ -588,4 +588,11 @@ a.dz-remove:before {
         min-height: 1250px;
         font-family: 'Montserrat', sans-serif!important;
     }
+    .header_button_done {
+    top: 15px;
+    padding: 5px 10px;
+    }
+    .header_page_title {
+    font-size: 20px;
+    }
 }
