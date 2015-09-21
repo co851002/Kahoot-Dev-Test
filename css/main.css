@@ -441,11 +441,12 @@ span {} .dz-size {
     display: none;
 }
 .dz-image {
-    width: 555px;
+    width: auto;
     height: 241px;
     position: relative;
     top: -10px;
     left: -5px;
+    margin-right: -10px;
     overflow: hidden;
 }
 a.dz-remove {
@@ -473,7 +474,7 @@ a.dz-remove:before {
     height: auto;
     /* overflow: hidden; */
     
-    width: 572px;
+    width: 100%;
 }
 .dz-preview.dz-processing.dz-error.dz-complete.dz-image-preview {
     height: 231px;
@@ -494,12 +495,13 @@ a.dz-remove:before {
     /* display: none; */
     
     height: 60px;
-    width: 555px;
+    width: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 999999999;
     bottom: 0px;
     left: -5px;
+    /* margin-right: -6px; */
 }
 /*****************************************************************************************************************************/
 /*========================================================================
